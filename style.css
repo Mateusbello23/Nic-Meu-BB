@@ -1,8 +1,10 @@
 body {
-  background-color: #fff0f5;
-  font-family: Arial, sans-serif;
-  text-align: center;
-  margin-top: 50px;
+  background-image: url('images/fundo.jpg')
+  background-size: cover; 
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed; 
+}
 }
 
 .container {
@@ -20,4 +22,5 @@ img {
 
 img:hover {
   transform: scale(1.05);
+}
 }
